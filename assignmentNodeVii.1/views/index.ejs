@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1><%= title %></h1>
+    <p>By console logging req.body, req.params and req.query, we will see empty braces in our terminal, as we dont have any body, params or query set yet.</p>
+    <p>However, console loggin the req.url prints our url of the current page our get method has a grasp of.</p>
+    <p>click the link button and check your console to see that the req.url works once entering the about page</p>
+    <button><a href="/about">about</a></button>
+  </body>
+</html>
