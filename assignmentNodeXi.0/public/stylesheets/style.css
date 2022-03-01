@@ -1,0 +1,82 @@
+*{
+    box-sizing: border-box;
+}
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  max-width: 1440px;
+}
+header {
+    text-align: right;
+    width: 100%;
+    border: 0px solid red;
+}
+header nav ul {
+    list-style: none;
+    margin-right: 10px;
+    text-align: right;
+}
+header nav ul li {
+    border: 1px solid gray;
+    display: inline;
+    margin-right: 5px;
+    padding: 3px;
+}
+main {
+    padding: 1em;
+    
+}
+table, td {
+    border: 1px solid blue;
+    
+}
+td {
+    padding: 3px;
+}
+.col_l {
+    font-weight: 600;
+    text-align: right;
+}
+.col_num {
+    text-align: right;
+}
+#container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+#continents, #countries, #cities, #weather{
+    padding: 5px;
+    width: 25%;
+}
+#continents {
+    border: 1px solid red;
+}
+#countries {
+    border: 1px solid green;
+}
+#cities {
+    border: 1px solid blue;
+}
+#weather {
+    border: 1px solid grey;
+}
+#chooseCountry, #chooseCity{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0px;
+}
+#chooseCountry button, #chooseCity button{
+    width: 100%;
+    padding: 5px 10px;
+    background-color: lightseagreen;
+    color: white;
+    border: 0px;
+    text-align: left;
+    margin-bottom: 5px;
+}
+#chooseCountry button:hover, #chooseCity button:hover{
+    background:rgb(24, 139, 134);
+}
+#chooseCountry button:active, #chooseCity button:active{
+    background: rgb(18, 104, 100);
+}
